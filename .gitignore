@@ -1,8 +1,6 @@
 .venv/
 __pycache__/
 *.pyc
-*.pkl
-models/saved/
 
 /COMPREHENSIVE_IMPROVEMENTS_SUMMARY.md
 /FINAL_COMPLETION_SUMMARY.md
