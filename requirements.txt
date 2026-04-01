@@ -1,16 +1,13 @@
-# Core dependencies
 flask==2.3.3
 fastapi==0.104.1
 uvicorn[standard]==0.24.0
 
-# Machine Learning
-scikit-learn==1.3.2
-pandas==2.1.4
 numpy==1.24.4
+pandas==2.1.4
+scikit-learn==1.3.2
 tensorflow==2.15.0
 
-# Explainable AI
 shap==0.42.1
+matplotlib==3.7.3
 
-# Utilities
 python-dotenv==1.0.0
