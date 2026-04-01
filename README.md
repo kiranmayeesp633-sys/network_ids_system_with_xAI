@@ -10,6 +10,7 @@ A comprehensive, modular intrusion detection system that combines machine learni
 - **Real-time Processing**: FastAPI backend for efficient real-time threat detection
 - **Automated Response**: Configurable mitigation strategies based on threat severity
 - **Simple Frontend**: Basic web interface for testing and monitoring
+- Live Packet Capture using Scapy
 
 ## Tech Stack
 
@@ -48,6 +49,14 @@ net_ids/
    ```bash
    uvicorn api.main:app --reload --port 8000
    ```
+4. Install Npcap (Required for Live Packet Capture)
+
+Download from:
+https://npcap.com/#download
+
+IMPORTANT:
+During installation, enable:
+"Install Npcap in WinPcap API-compatible Mode"
 
 ## Usage
 
@@ -107,6 +116,11 @@ The system can be configured through environment variables or configuration file
 3. Make your changes
 4. Add tests for your changes
 5. Submit a pull request
+
+## Live Packet Capture Note
+
+This project uses Scapy for real-time packet capture.
+On Windows, Npcap must be installed for this feature to work.
 
 ## License
 
